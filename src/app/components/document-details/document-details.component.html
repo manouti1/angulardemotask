@@ -1,0 +1,8 @@
+<div *ngIf="document">
+  <h2>{{ document.name }}</h2>
+  <div><label>ID:</label> {{ document.id }}</div>
+  <div><label>Name:</label> {{ document.name }}</div>
+  <div><label>Content:</label> {{ document.content }}</div>
+  <div><label>Owner:</label> {{ document.owner }}</div>
+  <button class="btn btn-success" (click)="goBack()">Go Back</button>
+</div>
